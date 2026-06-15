@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Georgia, serif;
+    background:#e8e0d1;
+    color:#2f2f2f;
+    min-height:100vh;
+}
+
+/* CABEÇALHO */
+
+header{
+    background:#3f3f3f;
+    color:#f5f1e8;
+    text-align:center;
+    padding:40px 20px;
+    border-bottom:4px solid #b8a98a;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#ddd;
+}
+
+/* PESQUISA */
+
+nav{
+    display:flex;
+    justify-content:center;
+    padding:25px;
+}
+
+#pesquisa{
+    width:400px;
+    max-width:90%;
+    padding:14px;
+    border:2px solid #b8a98a;
+    border-radius:12px;
+    background:#fffdf8;
+    color:#333;
+    font-size:1rem;
+}
+
+#pesquisa:focus{
+    outline:none;
+    border-color:#8c7b5d;
+}
+
+/* CONTEÚDO */
+
+main{
+    padding:40px;
+}
+
+section{
+    margin-bottom:50px;
+}
+
+section h2{
+    color:#3f3f3f;
+    margin-bottom:20px;
+    border-left:6px solid #8c7b5d;
+    padding-left:12px;
+}
+
+/* CATÁLOGO */
+
+.catalogo{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+}
+
+/* CARDS */
+
+.card{
+    background:#f8f4ec;
+    border:1px solid #d4c7b0;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+    background:#f1eadc;
+}
+
+.card h3{
+    color:#3f3f3f;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#555;
+}
+
+/* RODAPÉ */
+
+footer{
+    background:#3f3f3f;
+    color:#f5f1e8;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
