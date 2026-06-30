@@ -71,6 +71,12 @@ section h2{
     padding-left:12px;
 }
 
+section h1{color:#3f3f3f;
+    margin-bottom:20px;
+    border-left:6px solid #8c7b5d;
+    padding-left:12px;
+}
+
 /* CATÁLOGO */
 
 .catalogo{
